@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>liste de courses</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/code.js"></script>
+    </head>
+    <body onload="liste()">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Liste de courses</h1>
+                    <form>
+                        <p>
+                            Produit: <br>
+                            <input type="text" id="prod" placeholder="Produit">
+                        </p>
+                        <p>
+                            Quantité: <br>
+                            <input type="text" id="qnt" placeholder="Quantité">
+                        </p>
+                        <p>
+                            <input type="button" class="btn btn-default" value="Ajouter" onclick="ajouter()">
+                            <input type="button" class="btn btn-default" value="Modifier" onclick="modifier()">
+                            <input type="button" class="btn btn-default" value="Supprimer" onclick="supprimer()">
+                            
+                        </p>
+                    </form>
+                    <table class="table table-sm" align="center" id="paires"></table>
+                    <input type="button" class="btn btn-primary" name="" value="Clear" onclick="clean()">
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>

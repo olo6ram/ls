@@ -1,0 +1,19 @@
+.col-12{
+    text-align: center;
+    
+}
+
+
+h1{
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
